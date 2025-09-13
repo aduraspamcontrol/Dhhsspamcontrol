@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHHS GRANTS PROVIDER</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f9ff;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 82, 147, 0.8), rgba(0, 82, 147, 0.8)), url('http://static.photos/office/1200x630/1');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .testimonial-card {
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        .news-card {
+            transition: all 0.3s ease;
+        }
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .rating-star {
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header Section -->
+    <header class="hero-section text-white py-20 md:py-32 px-4 md:px-0 relative">
+        <div class="container mx-auto">
+            <div class="absolute top-4 left-4 md:top-8 md:left-8" data-aos="fade-down">
+                <div class="flex items-center">
+                    <div class="bg-white rounded-full p-2 mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <span class="text-white font-bold text-xl md:text-2xl">DHHS GRANTS</span>
+                </div>
+            </div>
+            <div class="text-center" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-bold font-serif mb-4">DHHS GRANTS PROVIDER</h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto">
+                Department of Health and Human Services – Offering financial support to make life easier for everyone
+            </p>
+            <p class="mt-6 text-lg md:text-xl max-w-2xl mx-auto">
+                We help people from all backgrounds — working professionals, students, retirees, and individuals with disabilities — through grants and financial assistance programs.
+            </p>
+            <a href="#apply" class="mt-8 inline-block bg-white text-blue-800 font-semibold px-8 py-3 rounded-full hover:bg-blue-50 transition duration-300">
+                Apply Now
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="section-card p-8 md:p-12" data-aos="fade-up">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                        <img src="http://static.photos/office/640x360/2" alt="DHHS Team" class="rounded-lg w-full">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-blue-900 mb-6">About Our Grants Program</h2>
+                        <p class="text-gray-700 mb-6">
+                            The DHHS GRANTS PROVIDER helps people from all backgrounds — whether you're working, a student, retired, young or old, deaf or hearing, widowed, or living with a disability. We provide grants and financial support to ease life's burdens.
+                        </p>
+                        <p class="text-gray-700 mb-6">
+                            Our mission is to ensure that financial constraints never stand in the way of health, education, or quality of life. We've helped thousands of individuals and families access the resources they need to thrive.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                                <i data-feather="check-circle" class="mr-2"></i> Easy Application
+                            </div>
+                            <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                                <i data-feather="dollar-sign" class="mr-2"></i> No Hidden Fees
+                            </div>
+                            <div class="bg-blue-50 text-blue-800 px-4 py-2 rounded-full flex items-center">
+                                <i data-feather="shield" class="mr-2"></i> Secure Process
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="apply" class="py-16 px-4 bg-blue-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Apply for Financial Support</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Complete this simple form to start your application process. Our team will review your information and contact you within 3-5 business days.
+                </p>
+            </div>
+            <div class="section-card p-6 md:p-8" data-aos="fade-up">
+                <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Success Stories</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Hear from people whose lives have been transformed through our grants program.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/5" alt="Sarah J." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Sarah J.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "The DHHS grant helped me pay for my daughter's medical treatment when we had nowhere else to turn. The application process was simple and the staff were incredibly supportive."
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/6" alt="Michael T." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Michael T.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "As a student with disabilities, the financial support I received allowed me to continue my education without the constant stress of tuition fees. Forever grateful!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/7" alt="Elena R." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Elena R.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "After my husband passed away, the DHHS grant helped me keep our home. The compassion and efficiency of the team made a difficult time much easier to bear."
+                    </p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/8" alt="David K." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">David K.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "The accessibility grant allowed me to make necessary modifications to my home after my accident. The process was straightforward and the funds were disbursed quickly."
+                    </p>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/9" alt="Priya M." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Priya M.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "As a single mother, the childcare grant has been life-changing. It's allowed me to continue working while knowing my children are in safe, nurturing environments."
+                    </p>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="testimonial-card section-card p-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/200x200/10" alt="James L." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">James L.</h4>
+                            <div class="flex">
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                                <span class="rating-star">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "The senior assistance program helped cover my medication costs when my pension wasn't enough. The staff treated me with dignity and respect throughout the process."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="py-16 px-4 bg-blue-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Latest News & Updates</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Stay informed about new programs, policy changes, and success stories from our community.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- News 1 -->
+                <div class="news-card section-card overflow-hidden" data-aos="fade-up">
+                    <img src="http://static.photos/finance/640x360/3" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Government announces new grant disbursement for 2025</h3>
+                        <p class="text-gray-600 mb-4">The federal government has allocated an additional $250 million to expand the DHHS grants program in the coming fiscal year.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Read more →</a>
+                    </div>
+                </div>
+
+                <!-- News 2 -->
+                <div class="news-card section-card overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/people/640x360/4" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Over 10,000 families supported by DHHS Grants last year</h3>
+                        <p class="text-gray-600 mb-4">Annual report shows record numbers of applicants receiving financial assistance across all demographic groups.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Read more →</a>
+                    </div>
+                </div>
+
+                <!-- News 3 -->
+                <div class="news-card section-card overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/cityscape/640x360/5" alt="News Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Expansion of financial aid programs to reach more communities</h3>
+                        <p class="text-gray-600 mb-4">New outreach initiatives aim to connect with underserved populations in rural and urban areas alike.</p>
+                        <a href="#" class="text-blue-600 font-medium hover:underline">Read more →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12 px-4">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">DHHS GRANTS PROVIDER</h3>
+                    <p class="text-blue-200">
+                        Department of Health and Human Services committed to supporting all members of our community through financial assistance programs.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-200 hover:text-white">Home</a></li>
+                        <li><a href="#apply" class="text-blue-200 hover:text-white">Apply Now</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">Eligibility Criteria</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-blue-200"><i data-feather="mail" class="mr-2"></i> grants@dhhs.gov</li>
+                        <li class="flex items-center text-blue-200"><i data-feather="phone" class="mr-2"></i> (800) 123-4567</li>
+                        <li class="flex items-center text-blue-200"><i data-feather="map-pin" class="mr-2"></i> 123 Health St, Washington DC</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="facebook"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-blue-200 hover:text-white"><i data-feather="linkedin"></i></a>
+                    </div>
+                    <div class="mt-6">
+                        <p class="text-sm text-blue-200">
+                            Office Hours: Mon-Fri 8:30 AM - 5:00 PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
+                <p>© 2023 DHHS GRANTS PROVIDER. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tawk.to Live Chat Widget -->
+    <!-- WhatsApp Floating Widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+234XXXXXXXXXX", // My phone number
+                call_to_action: "Chat with us on WhatsApp", 
+                position: "right",
+                bottom: "120px" // Added to shift widget up
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
